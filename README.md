@@ -1,36 +1,10 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Chef.IA - Frontend
 
-## Getting Started
+## Contexto do Produto
+O Chef.IA é uma plataforma SaaS multi-tenant focada na hiper-personalização e automação do atendimento em restaurantes. O sistema coloca uma Inteligência Artificial conversacional como protagonista da jornada do cliente na mesa, permitindo pedidos, sugestões de harmonização e pagamentos de forma fluida. Além disso, o sistema unifica a operação do salão (pedidos via QR Code, WebSockets para cozinha) e a gestão (leitura de cardápios em PDF, relatórios e painel gamificado).
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Resumo do Frontend
+Esta aplicação é responsável por todas as interfaces de usuário do ecossistema Chef.IA:
+1. **Visão do Cliente:** Cardápio digital e chat com o assistente IA acessado via QR Code.
+2. **Visão da Cozinha/Garçom:** Painéis de recebimento e gestão de pedidos em tempo real.
+3. **Visão do Gerente:** Dashboard administrativo, gestão de cardápios, mesas e visualização de *insights* da IA.
